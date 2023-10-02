@@ -36,3 +36,5 @@ Add tests. 0.5 days
 Add more search options and sections like colors, sizing, orientation, pagination, adding favorite photos. 1 - 1.5 days
 
 Add more profile customisation like profile photo, default search option etc. 0.5 days
+
+The app has responsive design but depending on use cases UX and UI can be improved by adding navbar/sections etc. 0.5 - 1 days
