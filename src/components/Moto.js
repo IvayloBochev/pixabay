@@ -60,6 +60,7 @@ function Moto() {
   return (
     <div className="mt-4 mb-4">
       <h2 className="w-100 text-center">{moto && moto.moto}</h2>
+      <h2 className="w-100 text-center">{!moto && 'Set your moto'}</h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group id="email">
           <Form.Control
