@@ -21,7 +21,7 @@ REACT_APP_PIXABAY_URL=https://pixabay.com
 
 # how to use
 Sign in with your email or create an account in the sign up section. 
-You'll receive an account verification email. After signup you are also signed in and redirected to the search page.
+You'll receive an account verification email. After signup you redirected to the login page.
 
 You can now use the image search in the main page.
 

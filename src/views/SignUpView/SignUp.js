@@ -36,7 +36,7 @@ function SignUp() {
         passwordRef.current.value
       );
       await sendEmailVerification(newUser.user);
-      navigate("/");
+      navigate("/login");
     } catch (error) {
       setError("Failed to sign up");
     }
