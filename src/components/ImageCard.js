@@ -23,7 +23,7 @@ function ImageCard({ largeImage, type, tags }) {
       </div>
       <div className="card-body">
         <h5 className="card-title">Type: {type}</h5>
-        <p className="card-text">Tags: {tags}</p>
+        <p className="card-text text-truncate">{tags}</p>
         <a
           href={largeImage}
           className="btn btn-primary"

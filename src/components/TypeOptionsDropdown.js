@@ -15,7 +15,7 @@ function TypeOptionsDropdown({ filter, setFilter }) {
       defaultValue={"all"}
       onChange={(e) => setFilter({ ...filter, type: e.target.value })}
     >
-      <option value="all">All</option>
+      <option value="all"> All image types</option>
       <option value="photo">Photos</option>
       <option value="illustration">Illustrations</option>
       <option value="vector">Vectors</option>

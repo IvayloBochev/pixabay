@@ -21,7 +21,7 @@ function SearchBar({ setFilter, filter }) {
           type="textarea"
           ref={searchRef}
           required
-          placeholder="Search images (default search is car)"
+          placeholder="Enter search image terms (the default search is car)"
           onChange={(e) =>
             setFilter({
               ...filter,
