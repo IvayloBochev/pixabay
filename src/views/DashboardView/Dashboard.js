@@ -16,6 +16,7 @@ function Dashboard() {
     query: "car",
     type: "all",
     resultsCount: "4",
+    orientation: 'all'
   });
 
   const {

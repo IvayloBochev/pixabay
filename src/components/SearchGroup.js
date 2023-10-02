@@ -3,6 +3,7 @@ import SearchBar from "./SearchBar";
 import TypeOptionsDropdown from "./TypeOptionsDropdown";
 import ResultsCountDropdown from "./ResultsCountDropdown";
 import { Button } from "react-bootstrap";
+import OrientationDropdown from "./OrientationDropdown";
 
 /**
  * Renders a group of search components for filtering images.
@@ -20,6 +21,7 @@ function SearchGroup({ filter, setFilter, handleFilterSubmit }) {
       <SearchBar filter={filter} setFilter={setFilter} />
       <TypeOptionsDropdown filter={filter} setFilter={setFilter} />
       <ResultsCountDropdown filter={filter} setFilter={setFilter} />
+      <OrientationDropdown filter={filter} setFilter={setFilter}/>
       <Button className="w-100 mt-2" onClick={handleFilterSubmit}>
         Search
       </Button>
