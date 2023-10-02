@@ -1,5 +1,5 @@
 /**
- * ResultsCountDropdown component for selecting the number of results.
+ * OrientationDropdown component for selecting the number of results.
  *
  * @param {Object} props - The component's properties.
  * @param {string} props.filter - The current filter value.
